@@ -1,0 +1,72 @@
+html,
+body {
+    height: 100%;
+    color: #a6c5d6;
+}
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+.form-signin{
+    max-width: 330px;
+    padding: 15px;
+}
+.form-signin .form-floating:focus-within{
+    z-index: 2;
+}
+.form-signin input[type="text"]{
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="text"]{
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="email"]{
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"]{
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn{
+    margin-bottom: 10px;
+}
+
+.btn-principal {
+    background-color: #6882f5;
+    border-color: #6882f5;
+    color: #fff;
+}
+
+.btn-principal:hover {
+    background-color: #6d68f5;
+    color: #fff;
+}
+
+.btn-secundario {
+    background-color: rgba(104, 130, 245, 0);
+    border-color: #6882f5;
+    color: #fff;
+}
+
+.btn-secundario:hover {
+    background-color: #6d68f5;
+    color: #fff;
+}
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+#register{
+    padding: 1.5rem;
+}
